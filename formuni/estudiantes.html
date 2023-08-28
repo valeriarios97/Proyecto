@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario estudiantes</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <center><h1 class="titulo">Información estudiante</h1></center>
+	<form action="estudiantes.php" method="post" enctype="multipart/form-sdata">
+		<table align="center">
+			<tr>
+				<td>Nombre</td>
+				<td><input type="text" name="nombre" placeholder="Nombre"></td>
+			</tr>
+			<tr>
+				<td>Tipo de documento</td>
+				<td><select name="tipo_documento" id="">
+                    <option value="..."></option>
+                    <option value="Tarjeta de indentidad">Tarjeta de identidad</option>
+                    <option value="Cedula de ciudadania">Cedula de ciudadania</option>
+                </select></td>
+			</tr>
+            <tr>
+				<td>Documento</td>
+				<td><input type="number" name="documento" placeholder="Documento"></td>
+			</tr>
+			<tr>
+				<td>Celular</td>
+				<td><input type="number" name="celular" placeholder="Celular"></td>
+			</tr>
+			<tr>
+				<td><td><input type="submit" value="Registrar"></td></td>
+			</tr>
+			
+		</table>
+	</form>
+
+    
+</body>
+</html>

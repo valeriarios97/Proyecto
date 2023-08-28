@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favi.png" type="image/x-icon">
+    <title>Formulario colegios</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<div class="contenedor">
+    <center><h1 class="titulo">Universidades</h1></center>
+	<form action="universidades.php" method="POST" enctype="multipart/form-data">
+		<div class="form-group">
+
+			<table align="center">
+				<tr>
+	
+					<td><input type="number" class="form-control" name="id" placeholder="id" required></td>
+				</tr>
+				<tr>
+	
+					<td><input type="text" class="form-control" name="nombre" placeholder="Nombre" required></td>
+				</tr>
+				<tr>
+	
+					<td><input type="number"  class="form-control" name="contacto" placeholder="Contacto" required></td>
+				</tr>
+				<tr>
+	
+					<td><input type="text"  class="form-control" name="programa" placeholder="Programa" required></td>
+				</tr>
+				<tr>
+			
+					<td><input type="number" class="form-control" name="precio" placeholder="Precio" required></td>
+				</tr>
+				<tr>
+					<td><td><input type="submit"  class="btn btn-primary" value="Registrar"></td></td>
+				</tr>
+				
+
+				
+			</table>
+		</div>
+	</form>
+</div>
+    
+</body>
+</html>
